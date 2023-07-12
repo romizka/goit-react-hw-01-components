@@ -1,0 +1,27 @@
+.transaction-history {
+  text-align: center;
+  align-items: center;
+  padding-top: 10%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.transaction-history thead tr {
+  background-color: #00bcd5;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+}
+
+.transaction-history tbody tr:nth-child(odd) {
+  background-color: white;
+  padding: 1rem;
+}
+
+th {
+  padding: 1rem;
+}
+
+td {
+  padding: 1rem;
+}
